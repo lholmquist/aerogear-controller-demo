@@ -40,7 +40,9 @@ public class CorsConfigProducer {
                 .enableCookies()
                 .maxAge(20)
                 .enableAllRequestMethods()
-                .build();
+                .validRequestHeaders("accept, content-type");
     }
 
 }
+
+
