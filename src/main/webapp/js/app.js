@@ -95,6 +95,7 @@ $( document ).ready( function() {
                 $( "#logindiv" ).show();
                 $( "#logoutdiv" ).hide();
                 $( "#otpdiv" ).hide();
+                $( "#otpgooddiv" ).hide();
             }
         });
     });
